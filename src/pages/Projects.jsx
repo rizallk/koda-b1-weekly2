@@ -6,6 +6,7 @@ import Badge from '../components/Badge';
 import Button from '../components/Button';
 import { projectsFilter } from '../utils/filter';
 
+// Projects page
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('');
 

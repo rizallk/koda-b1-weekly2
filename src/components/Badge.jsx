@@ -1,3 +1,12 @@
+/**
+ *  Komponen badge untuk menampilkan status atau teks pendek apapun
+ *
+ * @typedef {object} BadgeProps
+ * @property {string} text - menampilkan isi teksnya
+ * @property {string} variant - menentukan variant style badge
+ * @property {string} className - menambahkan custom class
+ * @returns {JSX.Element}
+ */
 export default function Badge({ text, variant, className }) {
   const variantClassName =
     variant === 'theme'

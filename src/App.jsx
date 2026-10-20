@@ -5,14 +5,9 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
-import { useEffect } from 'react';
 import Footer from './components/Footer';
 
 export default function App() {
-  useEffect(() => {
-    document.body.style.overflowX = 'hidden';
-  }, []);
-
   return (
     <>
       <Navbar />

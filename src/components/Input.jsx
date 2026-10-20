@@ -1,3 +1,17 @@
+/**
+ *  Komponen input
+ *
+ * @typedef {object} InputProps
+ * @property {string} id - menambahkan id untuk input
+ * @property {string} label - menambahkan label untuk input
+ * @property {string} placeholder - menambahkan teks placeholder input
+ * @property {boolean} required - menampilkan string * sebagai penanda wajib diisi
+ * @property {string} type - menentukan tipe element input
+ * @property {string} className - menambahkan custom class di input
+ * @property {object} error - object errors dari react hook form
+ * @param {React.InputHTMLAttributes<HTMLInputElement> & InputProps} inputRest
+ * @returns {JSX.Element}
+ */
 export default function Input({
   id,
   label,

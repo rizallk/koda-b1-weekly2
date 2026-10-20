@@ -9,4 +9,8 @@
   font-family: 'Inter', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @import 'assets/css/checkbox.css';

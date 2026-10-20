@@ -1,3 +1,13 @@
+/**
+ *  Komponen tombol
+ *
+ * @typedef {object} ButtonProps
+ * @property {ReactNode} children - menambahkan element / komponen react atau apapun
+ * @property {string} className - menambahkan custom class
+ * @property {string} variant - menentukan variant style tombol
+ * @param {React.ButtonHTMLAttributes<HTMLButtonElement> & ButtonProps} props
+ * @returns {JSX.Element}
+ */
 export default function Button({ children, className, variant, ...rest }) {
   let variantClassName;
 
