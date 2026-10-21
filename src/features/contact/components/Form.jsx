@@ -38,6 +38,7 @@ export default function Form() {
 
   const onSubmit = (data) => {
     alert('Formulir berhasil dikirim');
+    localStorage.setItem('contactForm', JSON.stringify(data));
     console.log(data);
   };
 
